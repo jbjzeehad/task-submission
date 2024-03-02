@@ -5,6 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <div className=' w-[1440px]'>
+      <App />
+    </div>
+
   </React.StrictMode>,
 )
