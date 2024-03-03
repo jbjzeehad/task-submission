@@ -1,4 +1,5 @@
 import SectionDetails from "./Shared/SectionDetails";
+import Footer from "./Layouts/Footer";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
                 cssclass={"flex-row-reverse"}
             >
             </SectionDetails>
+            <Footer></Footer>
         </>
 
     );
