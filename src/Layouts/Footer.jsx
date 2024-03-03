@@ -1,10 +1,11 @@
+import FooterSquare from "../Components/FooterSquare";
 
 
 const Footer = () => {
     return (
         <div className=" w-full px-48 py-24 bg-[#02033B] h-[680px]">
 
-            <div className="flex gap-[60px] border">
+            <div className="flex gap-[60px] ">
                 <div className="text-white">
                     <h1 className=" text-2xl font-extrabold mb-12">Scan. Detect. Remove.</h1>
                     <p className="mb-9 flex gap-10" >
@@ -16,14 +17,14 @@ const Footer = () => {
                     <p className="mb-5 mt-9">Copyright © 2022 Certo Software Limited | Registered in England & Wales No. 10072356</p>
                     <p>Designed & developed by Bigger Picture</p>
                 </div>
-                <div className="w-[188px]">
+                <div className="w-[188px] ">
                     <h1 className="text-[#FFF] text-4xl font-extrabold border-b-2 pb-6">Miro.</h1>
                     <ul className="mt-16 text-lg text-[#FFC247] grid gap-6 font-extrabold">
-                        <li className="flex gap-6 items-center"><p className="w-5 h-[2px] bg-[#FFC247]"></p>iPhone</li>
-                        <li className="flex gap-6 items-center"><p className="w-5 h-[2px] bg-[#FFC247]"></p>Android</li>
-                        <li className="flex gap-6 items-center"><p className="w-5 h-[2px] bg-[#FFC247]"></p>Help</li>
-                        <li className="flex gap-6 items-center"><p className="w-5 h-[2px] bg-[#FFC247]"></p>About</li>
-                        <li className="flex gap-6 items-center"><p className="w-5 h-[2px] bg-[#FFC247]"></p>Insights</li>
+                        <FooterSquare list="iPhone"></FooterSquare>
+                        <FooterSquare list="Android"></FooterSquare>
+                        <FooterSquare list="Help"></FooterSquare>
+                        <FooterSquare list="About"></FooterSquare>
+                        <FooterSquare list="Insights"></FooterSquare>
                     </ul>
 
                 </div>

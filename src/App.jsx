@@ -1,5 +1,7 @@
 import SectionDetails from "./Shared/SectionDetails";
 import Footer from "./Layouts/Footer";
+import ImageSection from "./Sections/ImageSection";
+import Trusted from "./Sections/Trusted";
 
 
 const App = () => {
@@ -8,6 +10,7 @@ const App = () => {
             <div>
                 <p className="font-bold text-xl text-center text-red-900">Project Task</p>
             </div>
+            <Trusted></Trusted>
             <SectionDetails
                 heading={"Work together, wherever you work"}
                 subHeading={"In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."}
@@ -21,6 +24,7 @@ const App = () => {
                 cssclass={"flex-row-reverse"}
             >
             </SectionDetails>
+            <ImageSection></ImageSection>
             <Footer></Footer>
         </>
 
