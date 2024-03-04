@@ -3,6 +3,7 @@ import Footer from "./Layouts/Footer";
 import ImageSection from "./Sections/ImageSection";
 import Trusted from "./Sections/Trusted";
 import SectionItems from "./Shared/SectionItems";
+import BrainstormingSection from "./Shared/BrainstormingSection";
 
 
 const App = () => {
@@ -27,9 +28,14 @@ const App = () => {
             </SectionDetails>
             <ImageSection></ImageSection>
             <SectionItems
-                sectionHeading={"Built for all kinds of teams"}
-                imgURL={"../public/Brainstormwithoutshadow.jpg.png"}
+                sectionHeading={"Built for the way you work"}
+                imgURL={"/Brainstormwithoutshadow.jpg.png"}
             ></SectionItems>
+            <BrainstormingSection
+                sectionHeading={"Built for all kinds of teams"}
+                imgURL={"/uxdesignwithoutshadow.jpg.png"}
+            >
+            </BrainstormingSection>
             <Footer></Footer>
         </>
 
