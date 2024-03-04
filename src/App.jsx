@@ -2,6 +2,7 @@ import SectionDetails from "./Shared/SectionDetails";
 import Footer from "./Layouts/Footer";
 import ImageSection from "./Sections/ImageSection";
 import Trusted from "./Sections/Trusted";
+import SectionItems from "./Shared/SectionItems";
 
 
 const App = () => {
@@ -25,6 +26,10 @@ const App = () => {
             >
             </SectionDetails>
             <ImageSection></ImageSection>
+            <SectionItems
+                sectionHeading={"Built for all kinds of teams"}
+                imgURL={"../public/Brainstormwithoutshadow.jpg.png"}
+            ></SectionItems>
             <Footer></Footer>
         </>
 
