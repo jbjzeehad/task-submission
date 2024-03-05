@@ -27,10 +27,10 @@ const Footer = () => {
                         <FooterSquare list="Insights"></FooterSquare>
                     </ul>
                 </div>
-                <div className="bg-[#FDB235] p-9 w-[436px] rounded-3xl relative h-60">
+                <div className="bg-[#FDB235] p-9 w-[436px] rounded-3xl relative h-[272px] ">
                     <h1 className="text-2xl font-extrabold mb-5">Sign up to our newsletter</h1>
                     <p className="mb-9 text-[#02033B] text-base font-normal">Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
-                    <form className="w-full  flex">
+                    <form className="w-full  flex ">
                         <input className="py-2 px-4 w-64 rounded-l-3xl text-sm" type="text" placeholder="Email address" />
                         <button className="py-2 px-6  w-28 bg-[#02033B] text-white rounded-r-3xl">Submit</button>
                     </form>
