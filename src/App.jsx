@@ -5,6 +5,10 @@ import Trusted from "./Sections/Trusted";
 import SectionItems from "./Shared/SectionItems";
 import BrainstormingSection from "./Shared/BrainstormingSection";
 
+import FeaturedSection from "./Shared/FeaturedSection";
+import SignUpButton from "./Components/SignUpButton";
+import ReviewSection from "./Shared/ReviewSection";
+
 
 const App = () => {
     return (
@@ -13,6 +17,11 @@ const App = () => {
                 <p className="font-bold text-xl text-center text-red-900">Project Task</p>
             </div>
             <Trusted></Trusted>
+            <FeaturedSection
+                featurehead={"Collaborate without constraints"}>
+
+            </FeaturedSection>
+
             <SectionDetails
                 heading={"Work together, wherever you work"}
                 subHeading={"In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are."}
@@ -36,6 +45,7 @@ const App = () => {
                 imgURL={"/uxdesignwithoutshadow.jpg.png"}
             >
             </BrainstormingSection>
+            <ReviewSection></ReviewSection>
             <Footer></Footer>
         </>
 

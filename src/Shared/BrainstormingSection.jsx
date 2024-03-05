@@ -17,9 +17,18 @@ const BrainstormingSection = ({ sectionHeading, imgURL }) => {
             </div>
             <div className="p-7 flex">
                 <div className="p-8">
-                    <h1 className="text-lg font-normal text-[#050038]">Brainstorming</h1>
-                    <p className="mt-6 text-lg">Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</p>
+                    <p className="flex gap-3 text-lg font-normal"><img src="../../public/Frame2.svg" alt="" />Build low-fi wireframes</p>
+                    <p className="flex gap-3 my-4"><img src="../../public/Frame2.svg" alt="" />Involve stakeholders in the design process</p>
+                    <p className="flex gap-3"><img src="../../public/Frame2.svg" alt="" />Run engaging design workshops</p>
+
                     <LearnMoreButton buttoncss={"no-underline"}></LearnMoreButton>
+                    <p className="font-normal text-lg mt-[70px]">Integrate your favorite tools</p>
+                    <p className="flex gap-8 mt-3">
+                        <img src="/Vector 3.svg" alt="" />
+                        <img src="/Vector4.svg" alt="" />
+                        <img src="/Vector2.svg" alt="" />
+                        <img src="/Vector.svg" alt="" />
+                    </p>
 
                 </div>
                 <img src={imgURL} />
