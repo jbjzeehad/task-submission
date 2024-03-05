@@ -7,14 +7,13 @@ import BrainstormingSection from "./Shared/BrainstormingSection";
 import FeaturedSection from "./Shared/FeaturedSection";
 import ReviewSection from "./Shared/ReviewSection";
 import Hero from "./Sections/Hero";
+import Header from "./Layouts/Header";
 
 
 const App = () => {
     return (
         <>
-            <div>
-                <p className="font-bold text-xl text-center text-red-900">Project Task</p>
-            </div>
+            <Header></Header>
             <Hero></Hero>
             <Trusted></Trusted>
             <FeaturedSection

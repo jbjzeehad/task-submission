@@ -16,7 +16,7 @@ const ReviewSection = () => {
                     ></Text>
                     <p className='self-end'>
                         <Member
-                            dp={"../../public/Mask_group-1.png"}
+                            dp={"/Mask_group-1.png"}
                             memberName={"Roxanne Mustafa"}
                             memberPosition={"Design Team Lead at VMware"}
                         ></Member></p>
@@ -29,7 +29,7 @@ const ReviewSection = () => {
                     </Text>
                     <p className='self-end'>
                         <Member
-                            dp={"../../public/Mask_group-2.png"}
+                            dp={"/Mask_group-2.png"}
                             memberName={"Jane Ashley"}
                             memberPosition={"Head of Design at DocuSign"}
                         ></Member>
@@ -42,7 +42,7 @@ const ReviewSection = () => {
                     ></Text>
                     <p className='self-end'>
                         <Member
-                            dp={"../../public/Mask_group-3.png"}
+                            dp={"/Mask_group-3.png"}
                             memberName={"Laura Baird"}
                             memberPosition={"Associate Design Director at frog"}
                         ></Member>
