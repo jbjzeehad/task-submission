@@ -17,9 +17,9 @@ const BrainstormingSection = ({ sectionHeading, imgURL }) => {
             </div>
             <div className="p-7 flex">
                 <div className="p-8">
-                    <p className="flex gap-3 text-lg font-normal"><img src="../../public/Frame2.svg" alt="" />Build low-fi wireframes</p>
-                    <p className="flex gap-3 my-4"><img src="../../public/Frame2.svg" alt="" />Involve stakeholders in the design process</p>
-                    <p className="flex gap-3"><img src="../../public/Frame2.svg" alt="" />Run engaging design workshops</p>
+                    <p className="flex gap-3 text-lg font-normal"><img src="/Frame2.svg" alt="" />Build low-fi wireframes</p>
+                    <p className="flex gap-3 my-4"><img src="/Frame2.svg" alt="" />Involve stakeholders in the design process</p>
+                    <p className="flex gap-3"><img src="/Frame2.svg" alt="" />Run engaging design workshops</p>
 
                     <LearnMoreButton buttoncss={"no-underline"}></LearnMoreButton>
                     <p className="font-normal text-lg mt-[70px]">Integrate your favorite tools</p>

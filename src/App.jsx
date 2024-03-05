@@ -4,10 +4,9 @@ import ImageSection from "./Sections/ImageSection";
 import Trusted from "./Sections/Trusted";
 import SectionItems from "./Shared/SectionItems";
 import BrainstormingSection from "./Shared/BrainstormingSection";
-
 import FeaturedSection from "./Shared/FeaturedSection";
-import SignUpButton from "./Components/SignUpButton";
 import ReviewSection from "./Shared/ReviewSection";
+import Hero from "./Sections/Hero";
 
 
 const App = () => {
@@ -16,6 +15,7 @@ const App = () => {
             <div>
                 <p className="font-bold text-xl text-center text-red-900">Project Task</p>
             </div>
+            <Hero></Hero>
             <Trusted></Trusted>
             <FeaturedSection
                 featurehead={"Collaborate without constraints"}>

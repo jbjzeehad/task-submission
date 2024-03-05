@@ -26,7 +26,6 @@ const Footer = () => {
                         <FooterSquare list="About"></FooterSquare>
                         <FooterSquare list="Insights"></FooterSquare>
                     </ul>
-
                 </div>
                 <div className="bg-[#FDB235] p-9 w-[436px] rounded-3xl relative h-60">
                     <h1 className="text-2xl font-extrabold mb-5">Sign up to our newsletter</h1>
